@@ -1,0 +1,44 @@
+.navItem{
+    display: flex;
+    align-items: center;
+    font-size: 18PX;
+
+}
+.navItem:hover{
+    color: yellow;
+    border-bottom: solid 1px yellow;
+
+}
+.navWrap{
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    gap: 3rem;
+    top: 0;
+    z-index: 100;
+}
+.innerWrap{
+    position: absolute;
+    z-index: 2;
+    width: 15rem;
+    top: 100%;
+    left: 101;
+}
+.itemContainer{
+    background-color:#272727;
+    padding: 10px 20px; 
+}
+.itemContainer:hover{
+    background-color: yellow;
+    
+}
+.listItem{
+    color: white;
+    text-decoration: none;
+    
+}
+.listItem:hover{
+   
+    color: #272727;
+}
